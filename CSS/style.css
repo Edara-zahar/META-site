@@ -760,6 +760,7 @@ position: relative;
   font-size: 16px;
   line-height: 16px;
 }
+
 .button {
 }
 .END__image {
@@ -849,8 +850,8 @@ position: relative;
 @media (max-width: 1000px) {
   .burger {
     position: fixed;
-    top: 15px;
-    right: 15px;
+    top: 0;
+    right: 0;
     z-index: 150;
     height: 60px;
     width: 60px;
@@ -895,6 +896,7 @@ position: relative;
     background-color: #000000;
     height: 100%;
     z-index: 100;
+    min-width: 320px;
     transform: translateX(100%);
     transition: all .3s;
     box-shadow: 0 1px 8px 0 #8DFD1B;
@@ -910,8 +912,9 @@ position: relative;
     
   }
   .header__nav{
-    text-align: center;
-    margin-left: 112px;
+      text-align: center;
+      margin: 0 auto;
+      flex-grow: 1;
   }
   .header__nav-list{
     flex-direction: column;
