@@ -1224,6 +1224,9 @@ position: relative;
   .ramka_img{
   height: 600px;
   }
+  .logoholder__acc{
+    max-height: 814px;
+  }
   .story__button1 {
     margin-left: -40px;
   }
@@ -1320,7 +1323,7 @@ position: relative;
   .logoholder__acc{
     margin-top: 583px;
     margin-left: -339px;
-    max-height: 814px;
+    max-height: 714px;
   }
   .logoholder__acc-text {
     font-size: 14px;
