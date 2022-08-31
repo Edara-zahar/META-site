@@ -1747,23 +1747,30 @@ position: relative;
 }
 @media (max-width: 320px){
   .wrapper {
-    width: 460px;
+    width: 320px;
   }
   .header__subtitle{
     font-size: 24px;
     max-width: 300px;
   }
   .header__img {
-    width: 350px;
-    height: 250px;
-    margin-top: 70px;
-    margin-left: 30px;
+    width: 270px;
+    height: 180px;
+    margin-top: 30px;
+    margin-left: 0px;
   }
   .waveNFT__content1 {
-  margin-left: 120px;
+    margin-left: 30px;
   }
   .waveNFT__content2 {
-    margin-left: -577px;
+    margin-left: -487px;
+    margin-top: 520px;
+  }
+  .waveNFT__image {
+    margin-top: 111px;
+    margin-left: -61px;
+    margin-right: 199px;
+    height: 307px;
   }
   .waveNFT__subtitle{
     max-width: 200px;
@@ -1771,25 +1778,41 @@ position: relative;
   .waveNFT__line{
     padding-top: 20px;
   }
-  .waveNFT__zagl{
-    font-size: 24px;
-    width: 440px;
+  .waveNFT__zagl {
+    font-size: 13px;
+    width: 300px;
   }
-  .waveNFT__text1{
-    font-size: 26px;
-    width: 440px;
+  .waveNFT__text1 {
+    font-size: 16px;
+    width: 300px;
+    margin-left: 5px;
   }
   .waveNFT__text2{
-    font-size: 26px;
-    width: 440px;
+    font-size: 16px;
+    width: 300px;
+    margin-left: 5px;
   }
   .waveNFT__text3{
-    font-size: 26px;
-    width: 440px;
+    font-size: 16px;
+    width: 300px;
+    margin-left: 5px;
+  }
+  .artist__slider {
+    width: 320px;
+  }
+  .artist__title {
+    font-size: 49px;
   }
   .artist__img {
     padding-left: 25px;
-}
+  }
+  .main__story {
+  max-width: 320px;
+  }
+  .st__zagl {
+    font-size: 14px;
+    margin-left: 60px;
+  }
   .strLine__zagl{
     max-width: 270px;
   }
@@ -1800,55 +1823,64 @@ position: relative;
     margin-left: 374px;
     margin-top: -669px;
   }
+  .line__zagl {
+    margin-left: 8px;
+  }
   .story__text1{
-    max-width: 420px;
-    font-size: 18px;
+    max-width: 300px;
+    font-size: 14px;
   }
   .story__text2{
-    max-width: 420px;
-    font-size: 18px;
+    max-width: 300px;
+    font-size: 14px;
   }
   .story__text3{
-    max-width: 420px;
-    font-size: 18px;
+    max-width: 300px;
+    font-size: 14px;
+  }
+  .road_map {
+    width: 320px;
   }
   .map__title {
-    font-size: 20px;
+    font-size: 10px;
   }
   .map__subtitle {
-    font-size: 16px;
+    font-size: 10px;
   }
   .map__text1{
     padding-left: 10px;
     margin-top: -10px;
-    font-size: 16px;
+    font-size: 10px;
   }
   .map__text2{
     padding-left: 10px;
     margin-top: -10px;
-    font-size: 16px;
+    font-size: 10px;
   }
   .map__text3{
     padding-left: 10px;
     margin-top: -10px;
-    font-size: 16px;
+    font-size: 10px;
   }
   .map__text4{
     margin-top: -3px;
-    font-size: 16px;
+    font-size: 10px;
   }
   .map__text5{
     margin-top: -3px;
-    font-size: 16px;
+    font-size: 10px;
   }
   .NFT__map1 {
   display: none;
+  }
+  .logoholder {
+    width: 320px;
   }
   .logoholder__heading {
     padding-left: 50px;
   }
   .logoholder__acc{
-    max-height: 800px;
+    max-height: 1030px;
   }
   .logoholder__acc-head {
     font-size: 26px;
@@ -1856,8 +1888,14 @@ position: relative;
   .logoholder__acc-text {
   font-size: 21px;
   }
+  .team {
+    width: 320px;
+  }
+  .team__zagl {
+    margin-left: 10px;
+  }
   .team__container {
-    margin-left: 15px;
+    margin-left: -65px;
   }
   .team__zagl {
     margin-left: 140px;
@@ -1872,26 +1910,30 @@ position: relative;
     font-size: 23px;
   }
   .end__wrapper {
-    width: 320px;
-    margin-left: 10px;
+    width: 331px;
+    margin-left: -60px;
   }
   .endimg {
     height: 420px;
     width: 400px;
     padding-left: 0px;
   }
+  .END {
+    padding-top: 236px;
+    max-width: 319px;
+  }
   .END__image {
     margin-left: -410px;
     margin-top: 50px;
   }
   .footer {
-  height: 800px;
-  width: 455px;
+    height: 800px;
+    width: 319px;
   }
   .footer__text {
-  font-size: 25px;
+  font-size: 20px;
   }
   .footer__list {
-    font-size: 25px;
+    font-size: 20px;
   }
     }
