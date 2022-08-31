@@ -1749,6 +1749,9 @@ position: relative;
   .wrapper {
     width: 320px;
   }
+  body{
+    margin-left: -6px;
+}
   .header__subtitle{
     font-size: 24px;
     max-width: 300px;
