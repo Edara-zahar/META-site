@@ -1042,7 +1042,7 @@ position: relative;
     margin-left: 300px;
   }
   .story__picture{
-    display: none;
+    /* display: none; */
   }
   .strLine__zagl{
     width: 350px;
@@ -1193,7 +1193,7 @@ position: relative;
     height: 307px;
   }
   .waveNFT__content1{
-    margin-left: 160px;
+    margin-left: 230px;
   }
   .waveNFT__content2 {
     margin-left: -491px;
@@ -1220,10 +1220,13 @@ position: relative;
     font-size: 15px;
   }
   .artist__slider{
-    width: 530px;
+    width: 660px;
   }
   .main__story {
-    width: 542px;
+    width: 700px;
+  }
+  .story__picture {
+    margin-left: 110px;
   }
   .st__zagl {
     margin-left: 200px;
@@ -1233,25 +1236,25 @@ position: relative;
     margin-top: 276px;
   }
   .story__line {
-    margin-left: 82px;
-    margin-top: -568px;
+    margin-left: 322px;
+    margin-top: -358px;
   }
   .strLine__zagl {
     width: 280px;
     font-size: 18px;
-    margin-left: 105px;
-    margin-top: -130px;
+    margin-left: 335px;
+    margin-top: -125px;
   }
   .story__text1 {
-    margin-left: 105px;
+    margin-left: 335px;
     width: 320px;
   }
   .story__text2 {
-    margin-left: 105px;
+    margin-left: 335px;
     width: 320px;
   }
   .story__text3 {
-    margin-left: 105px;
+    margin-left: 335px;
     width: 320px;
   }
   .ramka_img{
@@ -1267,40 +1270,49 @@ position: relative;
     margin-left: -40px;
   }
   .road_map {
-    width: 528px;
+    width: 700px;
   }
   .road__wrapper {
-    margin-left: -286px;
+    margin-left: -210px;
   }
   .road__zagl {
-    margin-left: 260px;
+    margin-left: 170px;
   }
   .logoholder {
     margin-top: 288px;
-    width: 528px;
+    width: 700px;
   }
   .logoholder__acc {
     max-height: 710px;
     margin-top: 590px;
     margin-left: -320px;
   }
+  .team {
+    width: 700px;
+  }
   .team__container {
-    margin-left: 189px;
-    display: inline-block;
+    margin-left: -13px;
+    display: flex;
   }
   .team__desc {
     margin-left: -25px;
     margin-bottom: 40px;
     max-width: 158px;
   }
+  .END {
+    width: 700px;
+  }
+  .end__wrapper {
+    padding-left: 116px;
+  }
   .END__image {
-    margin-left: -300px;
+    margin-left: -410px;
     margin-top: 70px;
   }
   .footer {
     font-size: 12px;
     height: 470px;
-    width: 543px;
+    width: 700px;
   }
   .footer__inner {
     padding-top: 5px;
@@ -1318,17 +1330,20 @@ position: relative;
   .footer__buttons {
     display: flex;
     margin-top: 30px;
-    margin-left: 116px;
+    margin-left: 195px;
   }
   /* -------------------700---------------------------- */
 }
 @media (max-width: 650px){
+  .wrapper {
+    width: 650px;
+  }
   .waveNFT__content1 {
     margin-left: 150px;
   }
-  .waveNFT__content2{
-    margin-top: 566px;
-    margin-left: -517px;
+  .waveNFT__content2 {
+    margin-top: 416px;
+    margin-left: -487px;
   }
   .waveNFT__img {
     margin-top: -80px;
@@ -1348,11 +1363,17 @@ position: relative;
   .waveNFT__btn {
     height: 76px;
     font-size: 18px;
-}
+  }
+  .artist__slider {
+    width: 650px;
+  }
+  .main__story {
+    width: 650px;
+  }
   .st__zagl {
     font-size: 14px;
     margin-left: 160px;
-}
+  }
   .str__wrapper {
     margin-top: 290px;
     margin-left: -300px;
@@ -1365,20 +1386,23 @@ position: relative;
     font-size: 20px;
     margin-left: 470px;
   }
-.story__text1{
-  font-size: 15px;
-  margin-left: 470px;
-  width: 430px;
+  .story__picture {
+    display: none;
   }
-.story__text2{
-  font-size: 15px;
-  margin-left: 470px;
-  width: 430px;
+  .story__text1{
+    font-size: 15px;
+    margin-left: 470px;
+    width: 430px;
   }
-.story__text3{
-  font-size: 15px;
-  margin-left: 470px;
-  width: 330px;
+  .story__text2{
+    font-size: 15px;
+    margin-left: 470px;
+    width: 430px;
+  }
+  .story__text3{
+    font-size: 15px;
+    margin-left: 470px;
+    width: 330px;
   }
   .road__zagl {
     margin-left: 200px;
@@ -1401,20 +1425,29 @@ position: relative;
   /* ------------------------------------------------- */
 }
 @media (max-width: 600px){
+  .wrapper {
+    width: 676px;
+  }
   .header__img {
     margin-left: -3px;
     margin-top: 50px;
     width: 500px;
     height: 400px;
   }
+  .road_map {
+    width: 600px;
+  }
   .road__wrapper {
-    margin-left: -290px;
+    margin-left: -230px;
   }
   .road__zagl {
     margin-left: 260px;
   }
   .footer__container{
   margin-left: -5px;
+  }
+  .footer__buttons {
+    margin-left: 245px;
   }
 }
 @media (max-width: 500px){
@@ -1436,6 +1469,9 @@ position: relative;
   .header__img {
     margin-left: 14px;
 }
+.road_map {
+  width: 680px;
+  }
 .road__zagl {
   margin-left: 210px;
 }
@@ -1484,11 +1520,12 @@ position: relative;
   font-size: 16px;
 }
 .team__container {
-  margin-left: -6px;
+  margin-left: 184px;
+  display: inline-block;
 }
 .teamer1 {
-    height: 210px;
-    width: 210px;
+    height: 300px;
+    width: 300px;
     padding: 10px;
 }
 .team__role {
@@ -1496,9 +1533,10 @@ position: relative;
 }
 .team__desc {
     font-size: 21px;
+    max-width: 298px;
 }
 .team__zagl {
-    margin-left: 130px;
+    margin-left: 10px;
 }
 .END__desc {
   font-size: 24px;
@@ -1512,7 +1550,7 @@ position: relative;
   padding-left: 10px;
 }
 .footer{
-  width: 644px;
+  width: 700px;
 }
 .footer__container {
   margin-left: 10px;
