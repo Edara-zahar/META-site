@@ -1814,6 +1814,10 @@ position: relative;
     margin-top: 30px;
     margin-left: 0px;
   }
+  .waveNFT {
+    margin-top: 114px;
+    margin-left: -2px;
+  }
   .waveNFT__content1 {
     margin-left: 30px;
   }
@@ -1936,12 +1940,16 @@ position: relative;
   }
   .logoholder__acc{
     max-height: 1030px;
+    margin-left: -319px;
   }
   .logoholder__acc-head {
     font-size: 26px;
   }
   .logoholder__acc-text {
   font-size: 21px;
+  }
+  .logoholder__zagl {
+    margin-left: -13px;
   }
   .team {
     width: 320px;
@@ -1990,5 +1998,8 @@ position: relative;
   }
   .footer__list {
     font-size: 20px;
+  }
+  .footer__buttons {
+    margin-left: 50px;
   }
     }
