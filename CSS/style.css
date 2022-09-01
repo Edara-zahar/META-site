@@ -1568,11 +1568,11 @@ position: relative;
     left: 0;
   }
   .wrapper{
-    width: 615px;
-    margin-left: 85px;
+    width: 414px;
+    margin-left: 292px;
   }
   body{
-    margin-left: -82px;
+    margin-left: -292px;
   }
   .header__title{
     font-size: 40px;
@@ -1589,7 +1589,7 @@ position: relative;
   }
   .waveNFT {
     margin-top: 114px;
-    margin-left: 90px;
+    margin-left: -10px;
   }
   .waveNFT__content1 {
     margin-left: 80px;
@@ -1599,16 +1599,16 @@ position: relative;
     margin-left: -517px;
   }
   .artist__slider {
-    width: 583px;
+    width: 414px;
   }
   .container__slider{
-    max-width: 530px;
+    max-width: 400px;
   }
   .artist__img {
-    padding-left: 1px;
+    padding-left: 68px;
   }
   .main__story {
-    max-width: 593px;
+    max-width: 414px;
   }
   .story__line {
     margin-left: 373px;
@@ -1645,10 +1645,10 @@ position: relative;
     width: 380px;;
   }
   .road_map {
-    width: 584px;
+    width: 414px;
   }
   .road__wrapper{
-    margin-left: -256px;
+    margin-left: -286px;
   }
   .road__zagl{
     margin-left: 250px;
@@ -1663,7 +1663,7 @@ position: relative;
     font-size: 13px;
   }
   .logoholder {
-    width: 583px;
+    width: 414px;
   }
   .logoholder__acc{
     margin-top: 583px;
@@ -1671,8 +1671,8 @@ position: relative;
     max-height: 680px;
   }
   .team {
-    width: 413px;
-    margin-left: 185px;
+    width: 414px;
+    margin-left: 285px;
   }
   .team__zagl {
     margin-left: 10px;
@@ -1702,8 +1702,8 @@ position: relative;
     text-align: center;
   }
   .END {
-    width: 555px;
-    margin-left: 145px;
+    width: 413px;
+    margin-left: 283px;
   }
   .end__wrapper{
     margin-left: -30px;
@@ -1715,8 +1715,8 @@ position: relative;
   .footer {
     height: 810px;
     font-size: 16px;
-    width: 616px;
-    margin-left: 82px;
+    width: 414px;
+    margin-left: 290px;
   }
   .footer__inner{
     display: inline;
@@ -1737,8 +1737,8 @@ position: relative;
 }
 .footer__buttons {
   display: flex;
-  margin-top: -20px;
-  margin-left: 190px;
+  margin-top: -10px;
+  margin-left: 100px;
   }
   /* ------------------------------------------------ */
 }
