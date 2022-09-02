@@ -3,6 +3,9 @@ body{
   background-color: black;
   color: white;
 }
+html{
+  overflow-x: hidden;
+}
 .wrapper{
   min-height: 100%;
   width: 100%;
@@ -1042,7 +1045,7 @@ position: relative;
     margin-left: 300px;
   }
   .story__picture{
-    /* display: none; */
+    display: none;
   }
   .strLine__zagl{
     width: 350px;
@@ -1173,6 +1176,9 @@ position: relative;
 /* ---------------------------------------- */
 }
 @media (max-width: 700px){
+  .wrapper {
+    width: 700px;
+  }
   .header__img {
     margin-left: -190px;
     margin-top: 210px;
@@ -1225,8 +1231,9 @@ position: relative;
   .main__story {
     width: 700px;
   }
-  .story__picture {
-    margin-left: 110px;
+  .story__wrapper {
+    margin-left: -50px;
+    max-width: 700px;
   }
   .st__zagl {
     margin-left: 200px;
@@ -1236,25 +1243,25 @@ position: relative;
     margin-top: 276px;
   }
   .story__line {
-    margin-left: 322px;
-    margin-top: -358px;
+    margin-left: 92px;
+    margin-top: -578px;
   }
   .strLine__zagl {
     width: 280px;
     font-size: 18px;
-    margin-left: 335px;
+    margin-left: 115px;
     margin-top: -125px;
   }
   .story__text1 {
-    margin-left: 335px;
+    margin-left: 115px;
     width: 320px;
   }
   .story__text2 {
-    margin-left: 335px;
+    margin-left: 115px;
     width: 320px;
   }
   .story__text3 {
-    margin-left: 335px;
+    margin-left: 115px;
     width: 320px;
   }
   .ramka_img{
@@ -1291,13 +1298,25 @@ position: relative;
     width: 700px;
   }
   .team__container {
-    margin-left: -13px;
-    display: flex;
+    margin-left: 184px;
+    display: inline-block;
+  }
+  .teamer1 {
+      height: 300px;
+      width: 300px;
+      padding: 10px;
+      padding-top: 20px;
+  }
+  .team__role {
+      font-size: 17px;
   }
   .team__desc {
-    margin-left: -25px;
-    margin-bottom: 40px;
-    max-width: 158px;
+      font-size: 21px;
+      max-width: 308px;
+      padding-left: 0;
+  }
+  .team__zagl {
+      margin-left: 10px;
   }
   .END {
     width: 700px;
@@ -1367,6 +1386,10 @@ position: relative;
   .artist__slider {
     width: 650px;
   }
+  .container__slider{
+    width: 600px;
+    margin-left: 30px;
+  }
   .main__story {
     width: 650px;
   }
@@ -1408,7 +1431,7 @@ position: relative;
     margin-left: 200px;
   }
   .road__wrapper {
-    margin-left: -230px;
+    margin-left: -280px;
   }
   .logoholder__acc{
     margin-top: 583px;
@@ -1426,33 +1449,82 @@ position: relative;
 }
 @media (max-width: 600px){
   .wrapper {
-    width: 676px;
+    width: 600px;
   }
   .header__img {
     margin-left: -3px;
     margin-top: 50px;
+    width: 400px;
+    height: 300px;
+  }
+  .artist__slider{
     width: 500px;
-    height: 400px;
+  }
+  .container__slider{
+    width: 500px;
   }
   .road_map {
     width: 600px;
   }
   .road__wrapper {
-    margin-left: -230px;
+    margin-left: -285px;
   }
   .road__zagl {
     margin-left: 260px;
+  }
+  .logoholder {
+    margin-top: 288px;
+    width: 600px;
+  }
+  .story__line {
+    margin-left: 373px;
+  }
+  .strLine__zagl {
+    margin-left: 390px;
+  }
+  .story__text1 {
+    margin-left: 390px;
+  }
+  .story__text2 {
+    margin-left: 390px;
+  }
+  .story__text3 {
+    margin-left: 390px;
+  }
+  .logoholder__acc {
+    max-height: 650px;
+  }
+  .logoholder__acc-text {
+    max-width: 334px;
+  }
+  .team{
+    width: 600px;
+  }
+  .team__container {
+    margin-left: 134px;
+    display: inline-block;
+  }
+  .END {
+    width: 500px;
+  }
+  .end__wrapper {
+    padding-left: 20px;
+  }
+  .END__image {
+    margin-left: -420px;
+    margin-top: 40px;
   }
   .footer__container{
   margin-left: -5px;
   }
   .footer__buttons {
-    margin-left: 245px;
+    margin-left: 175px;
   }
+  /* ------------------------------------------------- */
 }
 @media (max-width: 500px){
   .wrapper{
-    width: 129%;
+    width: 500px;
   }
   .header__title{
     font-size: 57px;
@@ -1468,15 +1540,43 @@ position: relative;
   }
   .header__img {
     margin-left: 14px;
+  }
+  .waveNFT__content1 {
+    margin-left: 40px;
+  }
+  .container__slider {
+    width: 320px;
+  }
+  .main__story {
+    width: 500px;
+  }
+  .story__wrapper {
+    margin-left: -50px;
+    max-width: 506px;
+  }
+.story__text1{
+  font-size: 13px;
+  width: 300px;
+}
+.story__text2{
+  font-size: 13px;
+  width: 300px;
+}
+.story__text3{
+  font-size: 13px;
+  width: 300px;
 }
 .road_map {
-  width: 680px;
-  }
-.road__zagl {
-  margin-left: 210px;
+  width: 500px;
 }
-.road__wrapper {
-  margin-left: -240px;
+.road__wrapper{
+  margin-left: -286px;
+}
+.road__zagl{
+  margin-left: 250px;
+}
+.road__container3 {
+  height: 271px;
 }
 .map__title {
   font-size: 17px;
@@ -1500,18 +1600,45 @@ position: relative;
   font-size: 16px;
   max-width: 400px;
 }
+.map__title {
+  font-size: 14px;
+}
+.map__subtitle {
+  font-size: 12px;
+}
+.map__text1 {
+  font-size: 12px;
+}
+.map__text2 {
+  font-size: 12px;
+}
+.map__text3 {
+  font-size: 12px;
+}
+.map__text4 {
+  font-size: 12px;
+}
+.map__text5 {
+  font-size: 12px;
+}
 .map__NFT {
-    margin-top: -170px;
-}
+  margin-top: -150px;
+  margin-left: 340px;
+  }
 .map__NFT1 {
-    margin-top: -180px;
-}
+  margin-top: -180px;
+  margin-left: 331px;
+  }
 .map__NFT2 {
-    margin-top: -190px;
-}
+  margin-left: 327px;
+  margin-top: -170px;
+  }
+  .logoholder {
+    width: 500px;
+  }
 .logoholder__inner {
     margin-left: -30px;
-}
+  }
 .logoholder__acc {
     max-height: 870px;
     margin-left: -300px
@@ -1519,31 +1646,18 @@ position: relative;
 .logoholder__acc-text{
   font-size: 16px;
 }
+.team {
+  width: 500px;
+  }
 .team__container {
-  margin-left: 184px;
-  display: inline-block;
-}
-.teamer1 {
-    height: 300px;
-    width: 300px;
-    padding: 10px;
-}
-.team__role {
-    font-size: 17px;
-}
-.team__desc {
-    font-size: 21px;
-    max-width: 298px;
-}
-.team__zagl {
-    margin-left: 10px;
-}
+    margin-left: 50px;
+  }
 .END__desc {
   font-size: 24px;
 }
 .end__wrapper {
-    padding-left: 56px;
-}
+  padding-left: 16px;
+  }
 .END__btn {
   padding-top: 22px;
   font-size: 22px;
@@ -1555,6 +1669,9 @@ position: relative;
 .footer__container {
   margin-left: 10px;
 }
+.footer__buttons {
+    margin-left: 125px;
+  }
   /* ----------------------500------------------------- */
 }
 @media (max-width: 460px) {
@@ -1580,12 +1697,17 @@ position: relative;
   }
   .header__subtitle {
     max-width: 370px;
+    font-size: 20px;
   }
   .header__img {
     margin-left: -210px;
     width: 350px;
     height: 250px;
     margin-top: 170px;
+  }
+  .waveNFT__btn {
+    font-size: 17px;
+    padding-left: 25px;
   }
   .waveNFT {
     margin-top: 114px;
@@ -1598,6 +1720,9 @@ position: relative;
     margin-top: 406px;
     margin-left: -517px;
   }
+  .artist__title {
+    font-size: 49px;
+  }
   .artist__slider {
     width: 414px;
   }
@@ -1605,7 +1730,7 @@ position: relative;
     max-width: 400px;
   }
   .artist__img {
-    padding-left: 68px;
+    padding-left: 25px;
   }
   .main__story {
     max-width: 414px;
@@ -1630,32 +1755,17 @@ position: relative;
     font-size: 20px;
   }
 .story__text1{
-    font-size: 18px;
+    font-size: 15px;
     margin-left: 374px;
-    width: 380px;
   }
 .story__text2{
-    font-size: 18px;
+    font-size: 15px;
     margin-left: 374px;
-    width: 380px;
   }
 .story__text3{
-    font-size: 18px;
+    font-size: 15px;
     margin-left: 374px;
-    width: 380px;;
   }
-  .road_map {
-    width: 414px;
-  }
-  .road__wrapper{
-    margin-left: -286px;
-  }
-  .road__zagl{
-    margin-left: 250px;
-  }
-  .road__container3 {
-    height: 271px;
-}
   .NFT__map1 {
   display: none;
   }
@@ -1678,12 +1788,12 @@ position: relative;
     margin-left: 10px;
   }
   .teamer1{
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     margin-left: 60px;
   }
   .team__container{
-    margin-left: -10px;
+    margin-left: -20px;
     padding-top: 20px;
   }
   .team__name {
@@ -1696,7 +1806,7 @@ position: relative;
     margin-left: 60px;
   }
   .team__desc {
-    margin-left: 70px;
+    margin-left: 90px;
     margin-bottom: 40px;
     max-width: 230px;
     text-align: center;
@@ -1705,15 +1815,21 @@ position: relative;
     width: 413px;
     margin-left: 283px;
   }
-  .end__wrapper{
-    margin-left: -30px;
+  .end__wrapper {
+    margin-left: -10px;
   }
   .END__image {
     margin-left: -400px;
     margin-top: 60px;
   }
+  .END__desc {
+    font-size: 14px;
+  }
+  .END__btn {
+    font-size: 17px;
+  }
   .footer {
-    height: 810px;
+    height: 736px;
     font-size: 16px;
     width: 414px;
     margin-left: 290px;
@@ -1765,27 +1881,6 @@ position: relative;
     margin-left: 374px;
     width: 347px;
   }
-  .map__title {
-    font-size: 14px;
-  }
-  .map__subtitle {
-    font-size: 12px;
-  }
-  .map__text1 {
-    font-size: 12px;
-  }
-  .map__text2 {
-    font-size: 12px;
-  }
-  .map__text3 {
-    font-size: 12px;
-  }
-  .map__text4 {
-    font-size: 12px;
-  }
-  .map__text5 {
-    font-size: 12px;
-  }
 }
 @media (max-width: 360px) {
   .wrapper {
@@ -1803,10 +1898,10 @@ position: relative;
   }
   body{
     margin-left: -291px;
-}
-  .header__subtitle{
-    font-size: 24px;
-    max-width: 300px;
+  }
+.header__subtitle {
+  font-size: 17px;
+  max-width: 300px;
   }
   .header__img {
     width: 270px;
@@ -1859,6 +1954,9 @@ position: relative;
   .artist__slider {
     width: 320px;
   }
+  .container__slider{
+    margin-left: 1px;
+  }
   .artist__title {
     font-size: 49px;
   }
@@ -1886,15 +1984,15 @@ position: relative;
     margin-left: 8px;
   }
   .story__text1{
-    max-width: 300px;
+    max-width: 270px;
     font-size: 14px;
   }
   .story__text2{
-    max-width: 300px;
+    max-width: 270px;
     font-size: 14px;
   }
   .story__text3{
-    max-width: 300px;
+    max-width: 270px;
     font-size: 14px;
   }
   .road_map {
@@ -1938,6 +2036,9 @@ position: relative;
   .logoholder__heading {
     padding-left: 50px;
   }
+  .logoholder__zagl {
+    font-size: 30px;
+  }
   .logoholder__acc{
     max-height: 1030px;
     margin-left: -319px;
@@ -1955,30 +2056,27 @@ position: relative;
     width: 320px;
   }
   .team__zagl {
-    margin-left: 10px;
+    margin-left: 20px;
+  }
+  .teamer1 {
+    height: 200px;
+    width: 200px;
   }
   .team__container {
-    margin-left: -65px;
-  }
-  .team__zagl {
-    margin-left: 140px;
-  }
-  .team__name {
-  font-size: 30px;
-  }
-  .team__role {
-  font-size: 24px;
+    margin-left: -16px;
   }
   .team__desc {
-    font-size: 23px;
+    font-size: 16px;
+    margin-left: 61px;
+    max-width: 183px;
   }
   .end__wrapper {
     width: 331px;
-    margin-left: -60px;
+    margin-left: -5px;
   }
   .endimg {
-    height: 420px;
-    width: 400px;
+    height: 400px;
+    width: 380px;
     padding-left: 0px;
   }
   .END {
@@ -1989,6 +2087,9 @@ position: relative;
     margin-left: -410px;
     margin-top: 50px;
   }
+  .end__zagl {
+    font-size: 41px;
+  }
   .footer {
     height: 800px;
     width: 319px;
@@ -1997,7 +2098,7 @@ position: relative;
   font-size: 20px;
   }
   .footer__list {
-    font-size: 20px;
+    font-size: 15px;
   }
   .footer__buttons {
     margin-left: 50px;
